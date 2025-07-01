@@ -1,0 +1,142 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply font-body;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+  
+  body {
+    @apply bg-white text-neutral-800 leading-relaxed;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-600 to-primary-700 text-white shadow-medium hover:shadow-large hover:scale-105 focus:ring-primary-500;
+  }
+  
+  .btn-secondary {
+    @apply bg-white border border-neutral-300 text-neutral-700 hover:bg-neutral-50 hover:border-neutral-400 focus:ring-neutral-500;
+  }
+  
+  .btn-accent {
+    @apply bg-gradient-to-r from-accent-500 to-accent-600 text-white shadow-medium hover:shadow-large hover:scale-105 focus:ring-accent-500;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-soft border border-neutral-200 p-6 hover:shadow-medium transition-all duration-200;
+  }
+  
+  .card-interactive {
+    @apply card hover:scale-[1.02] cursor-pointer;
+  }
+  
+  .input {
+    @apply w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors;
+  }
+  
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  
+  .status-new {
+    @apply badge bg-blue-100 text-blue-800;
+  }
+  
+  .status-contacted {
+    @apply badge bg-yellow-100 text-yellow-800;
+  }
+  
+  .status-showing {
+    @apply badge bg-purple-100 text-purple-800;
+  }
+  
+  .status-negotiating {
+    @apply badge bg-orange-100 text-orange-800;
+  }
+  
+  .status-closed {
+    @apply badge bg-green-100 text-green-800;
+  }
+  
+  .priority-low {
+    @apply badge bg-gray-100 text-gray-800;
+  }
+  
+  .priority-medium {
+    @apply badge bg-yellow-100 text-yellow-800;
+  }
+  
+  .priority-high {
+    @apply badge bg-red-100 text-red-800;
+  }
+}
+
+/* Toast Customization */
+.Toastify__toast-container {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 14px;
+}
+
+.Toastify__toast {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
+  min-height: 56px;
+  padding: 12px 16px;
+}
+
+.Toastify__toast-body {
+  padding: 0;
+  margin: 0;
+}
+
+.Toastify__progress-bar {
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+  height: 3px;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Skeleton Loading Animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200px 100%;
+  animation: shimmer 1.5s infinite;
+}

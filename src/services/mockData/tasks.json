@@ -1,0 +1,92 @@
+{
+  "mockTasks": [
+    {
+      "Id": 1,
+      "title": "Follow up with Sarah Johnson",
+      "description": "Call to schedule property viewing for suburban homes",
+      "dueDate": "2024-01-20T10:00:00Z",
+      "reminder": "2024-01-20T09:00:00Z",
+      "priority": "high",
+      "assignedTo": "John Smith",
+      "relatedContact": "Sarah Johnson",
+      "completed": false
+    },
+    {
+      "Id": 2,
+      "title": "Prepare listing presentation for Maple Street",
+      "description": "Create marketing materials and pricing analysis",
+      "dueDate": "2024-01-21T14:00:00Z",
+      "reminder": "2024-01-21T12:00:00Z",
+      "priority": "medium",
+      "assignedTo": "Lisa Davis",
+      "relatedContact": "",
+      "completed": false
+    },
+    {
+      "Id": 3,
+      "title": "Property showing at Lakeshore Drive",
+      "description": "Meet Emily Rodriguez for waterfront property tour",
+      "dueDate": "2024-01-22T15:30:00Z",
+      "reminder": "2024-01-22T14:30:00Z",
+      "priority": "high",
+      "assignedTo": "John Smith",
+      "relatedContact": "Emily Rodriguez",
+      "completed": false
+    },
+    {
+      "Id": 4,
+      "title": "Review contract for David Thompson",
+      "description": "Check terms and prepare for negotiation meeting",
+      "dueDate": "2024-01-19T16:00:00Z",
+      "reminder": "2024-01-19T15:00:00Z",
+      "priority": "high",
+      "assignedTo": "Lisa Davis",
+      "relatedContact": "David Thompson",
+      "completed": true
+    },
+    {
+      "Id": 5,
+      "title": "Market analysis for downtown condos",
+      "description": "Research comparable sales for Jennifer Liu",
+      "dueDate": "2024-01-23T11:00:00Z",
+      "reminder": "2024-01-23T10:00:00Z",
+      "priority": "medium",
+      "assignedTo": "Mike Wilson",
+      "relatedContact": "Jennifer Liu",
+      "completed": false
+    },
+    {
+      "Id": 6,
+      "title": "Send thank you note to Robert Martinez",
+      "description": "Follow up on referral and maintain relationship",
+      "dueDate": "2024-01-20T12:00:00Z",
+      "reminder": "2024-01-20T11:00:00Z",
+      "priority": "low",
+      "assignedTo": "John Smith",
+      "relatedContact": "Robert Martinez",
+      "completed": false
+    },
+    {
+      "Id": 7,
+      "title": "Schedule property inspection",
+      "description": "Arrange inspection for fixer-upper on Investment Lane",
+      "dueDate": "2024-01-24T09:00:00Z",
+      "reminder": "2024-01-24T08:00:00Z",
+      "priority": "medium",
+      "assignedTo": "Lisa Davis",
+      "relatedContact": "Amanda Foster",
+      "completed": false
+    },
+    {
+      "Id": 8,
+      "title": "First-time buyer consultation",
+      "description": "Meet with Christopher Lee to explain buying process",
+      "dueDate": "2024-01-21T13:00:00Z",
+      "reminder": "2024-01-21T12:00:00Z",
+      "priority": "medium",
+      "assignedTo": "Mike Wilson",
+      "relatedContact": "Christopher Lee",
+      "completed": false
+    }
+  ]
+}

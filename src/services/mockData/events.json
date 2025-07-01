@@ -1,0 +1,92 @@
+{
+  "mockEvents": [
+    {
+      "Id": 1,
+      "title": "Property Showing - Maple Street",
+      "start": "2024-01-20T14:00:00Z",
+      "end": "2024-01-20T15:00:00Z",
+      "type": "showing",
+      "location": "123 Maple Street, Springfield, IL",
+      "attendees": ["Sarah Johnson"],
+      "relatedContact": "Sarah Johnson",
+      "googleEventId": "gmail_showing_maple_001"
+    },
+    {
+      "Id": 2,
+      "title": "Client Meeting - Commercial Investment",
+      "start": "2024-01-21T10:00:00Z",
+      "end": "2024-01-21T11:30:00Z",
+      "type": "meeting",
+      "location": "Office Conference Room",
+      "attendees": ["Michael Chen"],
+      "relatedContact": "Michael Chen",
+      "googleEventId": "gmail_meeting_chen_002"
+    },
+    {
+      "Id": 3,
+      "title": "Waterfront Property Tour",
+      "start": "2024-01-22T15:30:00Z",
+      "end": "2024-01-22T17:00:00Z",
+      "type": "showing",
+      "location": "789 Lakeshore Drive, Waterfront, IL",
+      "attendees": ["Emily Rodriguez"],
+      "relatedContact": "Emily Rodriguez",
+      "googleEventId": "gmail_showing_waterfront_003"
+    },
+    {
+      "Id": 4,
+      "title": "Contract Review Meeting",
+      "start": "2024-01-19T16:00:00Z",
+      "end": "2024-01-19T17:30:00Z",
+      "type": "meeting",
+      "location": "Client Office",
+      "attendees": ["David Thompson"],
+      "relatedContact": "David Thompson",
+      "googleEventId": "gmail_contract_thompson_004"
+    },
+    {
+      "Id": 5,
+      "title": "Follow-up Call - Modern Condo",
+      "start": "2024-01-23T11:00:00Z",
+      "end": "2024-01-23T11:30:00Z",
+      "type": "call",
+      "location": "Phone Call",
+      "attendees": ["Jennifer Liu"],
+      "relatedContact": "Jennifer Liu",
+      "googleEventId": "gmail_call_liu_005"
+    },
+    {
+      "Id": 6,
+      "title": "Team Meeting - Weekly Sync",
+      "start": "2024-01-22T09:00:00Z",
+      "end": "2024-01-22T10:00:00Z",
+      "type": "meeting",
+      "location": "Office Conference Room",
+      "attendees": ["Team Members"],
+      "relatedContact": "",
+      "googleEventId": "gmail_team_sync_006"
+    },
+    {
+      "Id": 7,
+      "title": "Property Inspection - Fixer Upper",
+      "start": "2024-01-24T09:00:00Z",
+      "end": "2024-01-24T10:30:00Z",
+      "type": "other",
+      "location": "100 Fixer Upper Road, Old Town, IL",
+      "attendees": ["Amanda Foster", "Inspector"],
+      "relatedContact": "Amanda Foster",
+      "googleEventId": "gmail_inspection_foster_007"
+    },
+    {
+      "Id": 8,
+      "title": "First-Time Buyer Consultation",
+      "start": "2024-01-21T13:00:00Z",
+      "end": "2024-01-21T14:00:00Z",
+      "type": "meeting",
+      "location": "Office",
+      "attendees": ["Christopher Lee"],
+      "relatedContact": "Christopher Lee",
+      "googleEventId": "gmail_consultation_lee_008"
+    }
+  ]
+}

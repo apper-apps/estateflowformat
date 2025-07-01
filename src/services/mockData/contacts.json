@@ -1,0 +1,108 @@
+{
+  "mockContacts": [
+    {
+      "Id": 1,
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@email.com",
+      "phone": "(555) 123-4567",
+      "type": "lead",
+      "stage": "new",
+      "assignedTo": "John Smith",
+      "tags": ["first-time-buyer", "residential"],
+      "notes": "Looking for a family home in the suburbs. Budget around $350K.",
+      "createdAt": "2024-01-15T10:30:00Z",
+      "lastContact": "2024-01-15T10:30:00Z"
+    },
+    {
+      "Id": 2,
+      "name": "Michael Chen",
+      "email": "m.chen@business.com",
+      "phone": "(555) 234-5678",
+      "type": "client",
+      "stage": "showing",
+      "assignedTo": "Lisa Davis",
+      "tags": ["commercial", "investor"],
+      "notes": "Commercial property investor. Interested in office buildings downtown.",
+      "createdAt": "2024-01-10T14:20:00Z",
+      "lastContact": "2024-01-18T16:45:00Z"
+    },
+    {
+      "Id": 3,
+      "name": "Emily Rodriguez",
+      "email": "emily.r@gmail.com",
+      "phone": "(555) 345-6789",
+      "type": "prospect",
+      "stage": "contacted",
+      "assignedTo": "John Smith",
+      "tags": ["luxury", "waterfront"],
+      "notes": "High-end buyer looking for waterfront properties. Very specific requirements.",
+      "createdAt": "2024-01-12T09:15:00Z",
+      "lastContact": "2024-01-17T11:30:00Z"
+    },
+    {
+      "Id": 4,
+      "name": "David Thompson",
+      "email": "david.thompson@corp.com",
+      "phone": "(555) 456-7890",
+      "type": "client",
+      "stage": "negotiating",
+      "assignedTo": "Lisa Davis",
+      "tags": ["relocation", "urgent"],
+      "notes": "Corporate relocation. Needs to close quickly. Pre-approved for $500K.",
+      "createdAt": "2024-01-08T13:45:00Z",
+      "lastContact": "2024-01-19T14:20:00Z"
+    },
+    {
+      "Id": 5,
+      "name": "Jennifer Liu",
+      "email": "jennifer.liu@tech.com",
+      "phone": "(555) 567-8901",
+      "type": "lead",
+      "stage": "showing",
+      "assignedTo": "Mike Wilson",
+      "tags": ["tech-professional", "modern"],
+      "notes": "Tech professional looking for modern condo near downtown. Flexible on price.",
+      "createdAt": "2024-01-14T11:00:00Z",
+      "lastContact": "2024-01-18T10:15:00Z"
+    },
+    {
+      "Id": 6,
+      "name": "Robert Martinez",
+      "email": "rmartinez@email.com",
+      "phone": "(555) 678-9012",
+      "type": "client",
+      "stage": "closed",
+      "assignedTo": "John Smith",
+      "tags": ["repeat-client", "referral-source"],
+      "notes": "Previous client who purchased investment property. Great referral source.",
+      "createdAt": "2024-01-05T15:30:00Z",
+      "lastContact": "2024-01-16T12:00:00Z"
+    },
+    {
+      "Id": 7,
+      "name": "Amanda Foster",
+      "email": "amanda.foster@design.com",
+      "phone": "(555) 789-0123",
+      "type": "prospect",
+      "stage": "new",
+      "assignedTo": "Lisa Davis",
+      "tags": ["designer", "fixer-upper"],
+      "notes": "Interior designer looking for fixer-upper properties to renovate and flip.",
+      "createdAt": "2024-01-16T08:45:00Z",
+      "lastContact": "2024-01-16T08:45:00Z"
+    },
+    {
+      "Id": 8,
+      "name": "Christopher Lee",
+      "email": "chris.lee@startup.io",
+      "phone": "(555) 890-1234",
+      "type": "lead",
+      "stage": "contacted",
+      "assignedTo": "Mike Wilson",
+      "tags": ["startup-founder", "first-time-buyer"],
+      "notes": "Young entrepreneur buying first home. Needs guidance through the process.",
+      "createdAt": "2024-01-13T16:20:00Z",
+      "lastContact": "2024-01-17T09:30:00Z"
+    }
+  ]
+}
