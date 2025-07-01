@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { useSelector } from 'react-redux';
 import Button from '@/components/atoms/Button';
 import SearchBar from '@/components/molecules/SearchBar';
 import ApperIcon from '@/components/ApperIcon';
+import { AuthContext } from '../../App';
 
 const Header = ({ onMenuClick, title = "Dashboard" }) => {
+  const { logout } = useContext(AuthContext);
+  const { user, isAuthenticated } = useSelector((state) => state.user);
+
   return (
     <header className="bg-white border-b border-neutral-200 px-6 py-4">
       <div className="flex items-center justify-between">
@@ -37,6 +42,16 @@ const Header = ({ onMenuClick, title = "Dashboard" }) => {
             </Button>
             
             <Button variant="ghost" size="sm" icon="Settings" />
+            
+            {isAuthenticated && (
+              <Button 
+                variant="ghost" 
+                size="sm" 
+                icon="LogOut"
+                onClick={logout}
+                title="Logout"
+              />
+            )}
             
             <div className="w-8 h-8 bg-gradient-to-br from-primary-400 to-secondary-400 rounded-full flex items-center justify-center">
               <ApperIcon name="User" className="w-4 h-4 text-white" />

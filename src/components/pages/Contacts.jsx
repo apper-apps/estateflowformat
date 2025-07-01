@@ -15,7 +15,7 @@ import { filterContacts, sortData } from '@/utils/filterHelpers';
 import { formatDate } from '@/utils/dateHelpers';
 
 const ContactModal = ({ isOpen, onClose, contact, onSave }) => {
-  const [formData, setFormData] = useState({
+const [formData, setFormData] = useState({
     name: contact?.name || '',
     email: contact?.email || '',
     phone: contact?.phone || '',
