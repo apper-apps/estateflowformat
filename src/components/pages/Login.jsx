@@ -19,10 +19,10 @@ function Login() {
         <div className="flex flex-col gap-6 items-center justify-center">
           <div className="w-14 h-14 shrink-0 rounded-xl flex items-center justify-center bg-gradient-to-r from-primary-600 to-secondary-600 text-white text-2xl 2xl:text-3xl font-bold">
             E
-          </div>
+</div>
           <div className="flex flex-col gap-1 items-center justify-center">
             <div className="text-center text-lg xl:text-xl font-bold">
-              Sign in to EstateFlow
+              Sign in to Real Estate CRM
             </div>
             <div className="text-center text-sm text-gray-500">
               Welcome back, please sign in to continue
